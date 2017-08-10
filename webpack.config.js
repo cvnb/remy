@@ -17,8 +17,8 @@ module.exports = {
   entry: './index.jsx',
   output: {
     filename: 'bundle.js',
-    path: path.resolve('./rat/public/javascripts'),
-    publicPath: '/assets/'
+    path: path.resolve('/rat/public/javascripts'),
+    publicPath: 'public/javascripts/'
   },
   // other loaders, plugins etc. specific for frontend
   module: {
